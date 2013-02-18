@@ -7,22 +7,19 @@
 
 package deeloco.android.meteoclimatic;
 
-
-
-
 import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.TabHost;
-import android.widget.ImageView;
+//import android.widget.ImageView;
 
-import com.mobaloo.mobadme.MobadmeLibActivity;
-import com.mobaloo.mobadme.MobadmeLibActivity.BackProcess;
+//import com.mobaloo.mobadme.MobadmeLibActivity;
+//import com.mobaloo.mobadme.MobadmeLibActivity.BackProcess;
 
 public class tabPantalla extends TabActivity {
 	
-	MobadmeLibActivity mla;
+	//MobadmeLibActivity mla;
 
 	
 	public void onCreate(Bundle savedInstanceState) {
@@ -31,7 +28,7 @@ public class tabPantalla extends TabActivity {
 	    setContentView(R.layout.pestanas);
 	    
 
-	    mla = new MobadmeLibActivity(this);
+	    //mla = new MobadmeLibActivity(this);
 
 	    Resources res = getResources(); // Resource object to get Drawables
 	    TabHost tabHost = getTabHost();  // The activity TabHost
@@ -76,12 +73,12 @@ public class tabPantalla extends TabActivity {
 		// TODO Auto-generated method stub
 		super.onResume();
 		
-		ImageView iv = (ImageView) this.findViewById(R.id.ImageView);
-		mla.flagRefresh=0;
+		//ImageView iv = (ImageView) this.findViewById(R.id.ImageView);
+		//mla.flagRefresh=0;
 		//BackProcess b = mla.bp("ameteoclimatic/home", this,iv,0,0);
-		BackProcess b = mla.bp("agastosmovil/home", this,iv,0,0);
+		//BackProcess b = mla.bp("agastosmovil/home", this,iv,0,0);
 		
-		b.execute();
+		//b.execute();
 
 	}
 
@@ -91,14 +88,12 @@ public class tabPantalla extends TabActivity {
 		// TODO Auto-generated method stub
 		super.onPause();
 		
-		mla.flagRefresh = 1;
-		if (mla.timer!=null){
-		mla.timer.cancel();
+		//mla.flagRefresh = 1;
+		//if (mla.timer!=null){
+		//mla.timer.cancel();
 		}
 
 	}
-	
-	
 
-}
+//}
 
