@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="urlIconos">http://www.meteoclimatic.com/bot/icons/</string>
+
+    <string name="hello">Hello World, meteoclimatic!</string>
+    <string name="app_name">meteoclimatic</string>
+    <string name="widget_name">meteoclimatic</string>
+    <string name="appwidget_prefix_default">vazio</string>
+    <string name="fallo_conexion">Não foi possível obter dados. Por favor, tente novamente mais tarde.</string>
+    <string name="error_periodo">Tempo incorrecto.</string>
+    <string name="datosEstacion_activity">Dados da estação</string>
+    <string name="prevision_activity">Previsão do tempo</string>
+    <string name="tabPantalla_activity">Dados Meteorológicos</string>
+    <string name="acercade_activity">Sobre</string>
+    <string name="cargando_datos">A carregar dados...</string>
+    
+    <string name="norte">N</string>
+    <string name="sur">S</string>
+    <string name="este">E</string>
+    <string name="oeste">O</string>
+    <string name="noreste">NE</string>
+    <string name="sureste">SE</string>
+    <string name="suroeste">SO</string>
+    <string name="noroeste">NO</string>
+    
+    <string name="aj_pais">Pais</string>
+    <string name="aj_pais_des">Selecione o país da estação.</string>
+    <string name="aj_pais_titulo_dialog">PAIS</string>
+    <string name="aj_provincia">Distrito</string>
+    <string name="aj_provincia_des">Selecione o distrito da estação.</string>
+    <string name="aj_provincia_titulo_dialog">DISTRITO</string>
+    <string name="aj_estacion">Estação</string>
+    <string name="aj_estacion_des">Nenhuma estação seleccionada.</string>
+    <string name="aj_estacion_titulo_dialog">ESTAÇÃO</string>
+    <string name="aj_fondo">Activar Fundo</string>
+    <string name="aj_fondo_des">Activar/Desactivar fundo transparente.</string>
+    <string name="aj_periodo">Intervalo de actualização</string>
+    <string name="aj_periodo_des">Intervalo de actualização do widget.</string>
+    <string name="aj_periodo_titulo_dialog">INTERVALO</string>
+    <string name="aj_tema">Tema</string>
+    <string name="aj_tema_des">Seleccionar um tema (cor , fonte e fundo) para  o widget.</string>
+    <string name="aj_tema_titulo_dialog">TEMA</string>
+    <string name="aj_transparencia">Fundo transparente</string>
+    <string name="aj_transparencia_des">Percentagem transparência do fundo.</string>
+    <string name="aj_transparencia_titulo_dialog">TRANSPARÊNCIA</string>
+    
+    <string name="acercade_titulo">Widget Meteoclimatic V.1.0</string>
+    <string name="acercade_TitDatos">Dados Meteorológicos</string>
+    <string name="acercade_ParDatos"><p>Todos os dados  são obtidos a partir do site Meteoclimatic .</p><br></br><p> Meteoclimatic é uma grande rede de estações meteorológicas amadoras em tempo real e é um importante site com vários productos meteorológicos.</p></string>
+    <string name="acercade_linkDatos">http://www.meteoclimatic.com/</string>
+    <string name="acercade_autor_cab">Autor e Licença</string>
+    <string name="acercade_autor">Antonio C. A. Abellán - acabellan@gmail.com</string>
+    <string name="acercade_licencia">Meteoclimatic é um software livre, sob os termos da Licença Pública Geral GNU V3</string>
+    <string name="acercade_titDonacion">Versão  Gratuita</string>
+    <string name="acercade_parDonacion">Existe uma versão  no Market para os usuários que queiram contribuir para o desenvolvimento e manutenção desta aplicação.</string>
+    <string name="acercade_linkDonacion">http://market.android.com/details?id=deeloco.android.meteoclimatic.donate</string>
+    <string name="acercade_titGracias">Agradecimientos</string>
+    <string name="acercade_parGracias">Agradecemos  a todos os utilizadores que têm vindo a testar a aplicação na fase de desenvolvimento. Graças a HTC Forúm Mania, de onde viemos juntos para realizar esta aplicação. E graças a comunidade  Meteoclimatic pela sua ajuda e colaboração.</string>
+    
+</resources>

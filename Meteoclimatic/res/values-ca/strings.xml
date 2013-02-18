@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="urlIconos">http://www.meteoclimatic.com/bot/icons/</string>
+
+    <string name="hello">Hello World, meteoclimatic!</string>
+    <string name="app_name">meteoclimatic</string>
+    <string name="widget_name">meteoclimatic</string>
+    <string name="appwidget_prefix_default">vacio</string>
+    <string name="fallo_conexion">Error en la descàrrega. Intenti-ho més tard.</string>
+    <string name="error_periodo">Període incorrecte.</string>
+    <string name="datosEstacion_activity">Dades de l\'estació</string>
+    <string name="prevision_activity">Previsió del temps</string>
+    <string name="tabPantalla_activity">Dades Meteorològiques</string>
+    <string name="acercade_activity">Acerca De</string>
+    <string name="cargando_datos">Carregant Dades...</string>
+    
+    <string name="norte">N</string>
+    <string name="sur">S</string>
+    <string name="este">E</string>
+    <string name="oeste">O</string>
+    <string name="noreste">NE</string>
+    <string name="sureste">SE</string>
+    <string name="suroeste">SO</string>
+    <string name="noroeste">NO</string>
+    
+    <string name="aj_pais">País</string>
+    <string name="aj_pais_des">Selecciona el país de l\'estació.</string>
+    <string name="aj_pais_titulo_dialog">PAIS</string>
+    <string name="aj_provincia">Provincia</string>
+    <string name="aj_provincia_des">Selecciona la provincia de l\'estació.</string>
+    <string name="aj_provincia_titulo_dialog">PROVINCIA</string>
+    <string name="aj_estacion">Estació</string>
+    <string name="aj_estacion_des">Cap estació seleccionada.</string>
+    <string name="aj_estacion_titulo_dialog">ESTACIÓ</string>
+    <string name="aj_fondo">Activar Fons</string>
+    <string name="aj_fondo_des">Activar/Desactivar fons transparent.</string>
+    <string name="aj_periodo">Interval d\'actualització</string>
+    <string name="aj_periodo_des">Interval d\'actualització del widget.</string>
+    <string name="aj_periodo_titulo_dialog">INTERVAL</string>
+    <string name="aj_tema">Tema</string>
+    <string name="aj_tema_des">Selecciona un tema (color lletra i fons) per al widget.</string>
+    <string name="aj_tema_titulo_dialog">TEMA</string>
+    <string name="aj_transparencia">Transparencia fons</string>
+    <string name="aj_transparencia_des">Percentatge de transparencia en el fondo.</string>
+    <string name="aj_transparencia_titulo_dialog">TRANSPARENCIA</string>
+    
+    
+    <string name="acercade_titulo">Widget Meteoclimatic V.1.0</string>
+    <string name="acercade_TitDatos">Dades Meteorològiques</string>
+    <string name="acercade_ParDatos"><p>Totes les dades que aquí apareixen són obtingudes de la web de Meteoclimatic.</p><br></br><p>Meteoclimatic es una gran xarxa d\'estacions meteorológiques automàtiques no professionals en temps real i un important directori de recursos meteorològics.</p></string>
+    <string name="acercade_linkDatos">http://www.meteoclimatic.com/</string>
+    <string name="acercade_autor_cab">Autor i llicència</string>
+    <string name="acercade_autor">Antonio C. A. Abellán - acabellan@gmail.com</string>
+    <string name="acercade_licencia">Meteoclimatic és software lliure; sota els termes de la llicència pública general GNU V3</string>
+    <string name="acercade_titDonacion">Versió de donació</string>
+    <string name="acercade_parDonacion">Hi ha una versió de donació disponible en el Market, per als usuaris que vulguin contribuir al desenvolupament i manteniment d\'aquesta aplicació.</string>
+    <string name="acercade_linkDonacion">http://market.android.com/details?id=deeloco.android.meteoclimatic.donate</string>
+    <string name="acercade_titGracias">Agraïments</string>
+    <string name="acercade_parGracias">Donar les gràcies a tots els usuaris que han estat provant l\'aplicació, en la fase de desenvolupament. Gràcies al fòrum de HTCMania, on ens hem ajuntat per fer realitat aquesta aplicació. I gràcies a la gent de Meteoclimatic, per la seva ajuda i col·laboració.</string>
+
+</resources>

@@ -1,0 +1,9 @@
+(C) Copyright
+ 
+Autor: Antonio Cristóbal Álvarez Abellán -> acabellan@gmail.com
+
+Todos los derechos reservados.
+
+Librerias externas
+
+Las librerias MobadmeAndroid son propiedad de MOBALOO S.L.

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="urlIconos">http://www.meteoclimatic.com/bot/icons/</string>
+
+    <string name="hello">Hello World, meteoclimatic!</string>
+    <string name="app_name">meteoclimatic</string>
+    <string name="widget_name">meteoclimatic</string>
+    <string name="appwidget_prefix_default">vacio</string>
+    <string name="fallo_conexion">Fallo en la descarga. Intentelo más tarde.</string>
+    <string name="error_periodo">Periodo incorrecto.</string>
+    <string name="datosEstacion_activity">Datos de la estación</string>
+    <string name="prevision_activity">Previsión del tiempo</string>
+    <string name="tabPantalla_activity">Datos Meteorológicos</string>
+    <string name="acercade_activity">Acerca De</string>
+    <string name="cargando_datos">Cargando datos...</string>
+    
+    <string name="norte">N</string>
+    <string name="sur">S</string>
+    <string name="este">E</string>
+    <string name="oeste">O</string>
+    <string name="noreste">NE</string>
+    <string name="sureste">SE</string>
+    <string name="suroeste">SO</string>
+    <string name="noroeste">NO</string>
+    
+    <string name="aj_pais">Pais</string>
+    <string name="aj_pais_des">Selecciona el pais de la estación.</string>
+    <string name="aj_pais_titulo_dialog">PAIS</string>
+    <string name="aj_provincia">Provincia</string>
+    <string name="aj_provincia_des">Selecciona la provincia de la estación.</string>
+    <string name="aj_provincia_titulo_dialog">PROVINCIA</string>
+    <string name="aj_estacion">Estación</string>
+    <string name="aj_estacion_des">Sin estación seleccionada.</string>
+    <string name="aj_estacion_titulo_dialog">ESTACIÓN</string>
+    <string name="aj_fondo">Activar Fondo</string>
+    <string name="aj_fondo_des">Activar/Desactivar fondo transparente.</string>
+    <string name="aj_periodo">Intervalo de actualización</string>
+    <string name="aj_periodo_des">Intervalo de actualización del widget.</string>
+    <string name="aj_periodo_titulo_dialog">INTERVALO</string>
+    <string name="aj_tema">Tema</string>
+    <string name="aj_tema_des">Selecciona un tema (color letra y fondo) para el widget.</string>
+    <string name="aj_tema_titulo_dialog">TEMA</string>
+    <string name="aj_transparencia">Transparencia fondo</string>
+    <string name="aj_transparencia_des">Porcentaje de transparencia en el fondo.</string>
+    <string name="aj_transparencia_titulo_dialog">TRANSPARENCIA</string>
+    
+    <string name="aj_alarmas_preferencias">Alarmas Meteorológicas</string>
+    <string name="aj_alarmas_preferencias_des">Configurar alarmas meteorológicas</string>
+    
+    <string name="aj_alarmTempAlta">Temperatura Alta</string>
+    <string name="aj_alarmTempAlta_des">Activar/Desactivar la alarma de temperatura alta.</string>
+    <string name="aj_valorAlarmaTempAlta">Valor temperatura Alta</string>
+    <string name="aj_valorAlarmaTempAlta_des">Valor de temperatura alta para que se active la alarma (en ºC).</string>
+    
+    <string name="aj_alarmTempBaja">Temperatura Baja</string>
+    <string name="aj_alarmTempBaja_des">Activar/Desactivar la alarma de temperatura baja.</string>
+    <string name="aj_valorAlarmaTempBaja">Valor temperatura Baja</string>
+    <string name="aj_valorAlarmaTempBaja_des">Valor de temperatura baja para que se active la alarma (en ºC).</string>
+    
+    <string name="aj_alarmaLluvia">Lluvia</string>
+    <string name="aj_alarmaLluvia_des">Activar/Desactivar la alarma de lluvia.</string>
+    <string name="aj_valorAlarmaLluvia">Valor Lluvia</string>
+    <string name="aj_valorAlarmaLluvia_des">Valor de lluvia para que se active la alarma (en mm).</string> 
+     
+    <string name="aj_alarmaViento">Viento</string>
+    <string name="aj_alarmaViento_des">Activar/Desactivar la alarma de viento.</string>
+    <string name="aj_valorAlarmaViento">Valor Viento</string>
+    <string name="aj_valorAlarmaViento_des">Valor de viento para que se active la alarma (en km/h).</string>    
+    
+    <string name="acercade_titulo">Widget Meteoclimatic V.1.0</string>
+    <string name="acercade_TitDatos">Datos Meteorológicos</string>
+    <string name="acercade_ParDatos"><p>Todos los datos que aquí aparcen son obtenidos de la web de Meteoclimatic.</p><br></br><p>Meteoclimatic es una gran red de estaciones meteorológicas automáticas no profesionales en tiempo real y un importante directorio de recursos meteorológicos.</p></string>
+    <string name="acercade_linkDatos">http://www.meteoclimatic.com/</string>
+    <string name="acercade_autor_cab">Autor</string>
+    <string name="acercade_autor">Antonio C. A. Abellán - acabellan@gmail.com</string>
+    <string name="acercade_licencia">Meteoclimatic es software libre; bajo los términos de la Licencia Pública General de GNU V3</string>
+    <string name="acercade_titDonacion">Versión de donación</string>
+    <string name="acercade_parDonacion">Hay una versión de donación disponible en el Market, para los usuarios que quieran contribuir al desarrollo y mantenimiento de esta aplicación.</string>
+    <string name="acercade_linkDonacion">http://market.android.com/details?id=deeloco.android.meteoclimatic.donate</string>
+    <string name="acercade_titTraduccion">Traducción</string>
+    <string name="acercade_parTraduccion"><b>Portugues</b> - Juan José Dominguez.<b>Catalán</b> - jjuaon</string>
+    
+    <string name="acercade_titGracias">Agradecimientos</string>
+    <string name="acercade_parGracias">Dar las gracias a todos los usuarios que han estado probando la aplicación, en la fase de desarrollo. Gracias al foro de HTC Mania, donde nos hemos juntado para hacer realidad esta aplicación. Y gracias a la gente de Meteoclimatic, por su ayuda y colaboración.</string>
+
+</resources>

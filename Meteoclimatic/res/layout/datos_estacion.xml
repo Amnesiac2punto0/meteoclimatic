@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical">
+  
+  
+<ScrollView android:id="@+id/ScrollView01"
+android:layout_width="fill_parent" 
+android:layout_below="@+id/ImageView01"
+android:layout_height="fill_parent">  
+  
+  
+	<LinearLayout 
+	android:id="@+id/datos" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical"
+	android:padding="2dp">
+	
+	    	<TextView  
+	        android:id="@+id/tw_cabecera"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:baselineAlignBottom="true"
+	        android:textStyle="normal"
+	        android:text="meteoclimatic"
+	        android:gravity="center"/>
+	
+	
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="1">
+		
+		    <TableRow>
+		    	<TextView
+		            android:layout_column="1"
+		            android:text=""
+		            android:padding="3dip" />
+		        <TextView
+		            android:layout_column="1"
+		            android:text="ºC"
+		            android:padding="3dip" />
+   		        <TextView
+		            android:layout_column="1"
+		            android:text="%"
+		            android:padding="3dip" />
+   		        <TextView
+		            android:layout_column="1"
+		            android:text="k/h"
+		            android:padding="3dip" />
+   		        <TextView
+		            android:layout_column="1"
+		            android:text="hPa"
+		            android:padding="3dip" />
+   		        <TextView
+		            android:layout_column="1"
+		            android:text="mm"
+		            android:padding="3dip" />
+		    </TableRow>
+	        <View
+       		android:layout_height="2dip"
+       		android:background="#FF909090" />
+		    <TableRow>
+		    	<TextView
+		            android:layout_column="1"
+		            android:text="Ahora"
+		            android:padding="3dip" />
+		        <TextView
+		        	android:id="@+id/temp" 
+		            android:layout_column="1"
+		            android:text="29"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/hum" 
+		            android:layout_column="1"
+		            android:text="35"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/viento" 
+		            android:layout_column="1"
+		            android:text="SSO 13"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/pre" 
+		            android:layout_column="1"
+		            android:text="1017"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/prec" 
+		            android:layout_column="1"
+		            android:text="0.0"
+		            android:gravity="center"
+		            android:padding="3dip" />
+		    </TableRow>
+		    
+	        <View
+       		android:layout_height="2dip"
+       		android:background="#FF909090" />
+		    
+   		    <TableRow>
+   		    	<TextView
+		            android:layout_column="1"
+		            android:text="Máx."
+		            android:textColor="#FF8000"
+		            android:padding="3dip" />
+   		    
+		        <TextView
+		        	android:id="@+id/temp_max" 
+		            android:layout_column="1"
+		            android:text="30.0"
+		            android:textColor="#FF8000"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/hum_max" 
+		            android:layout_column="1"
+		            android:text="88"
+		            android:textColor="#FF8000"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/viento_max" 
+		            android:layout_column="1"
+		            android:text="27"
+		            android:textColor="#FF8000"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/pre_max" 
+		            android:layout_column="1"
+		            android:text="1018"
+		            android:textColor="#FF8000"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/prec_max" 
+		            android:layout_column="1"
+		            android:text="--"
+		            android:textColor="#FF8000"
+		            android:gravity="center"
+		            android:padding="3dip" />
+		    </TableRow>
+		    
+	        <View
+       		android:layout_height="2dip"
+       		android:background="#FF909090" />
+		    
+			<TableRow>
+		    	<TextView
+		            android:layout_column="1"
+		            android:text="Min."
+		            android:textColor="#0080ff"
+		            android:padding="3dip" />
+			
+		        <TextView
+		        	android:id="@+id/temp_min" 
+		            android:layout_column="1"
+		            android:text="13.9"
+		            android:textColor="#0080ff"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/hum_min"
+		            android:layout_column="1"
+		            android:text="28"
+		            android:textColor="#0080ff"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/viento_min"
+		            android:layout_column="1"
+		            android:text="--"
+		            android:textColor="#0080ff"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/pre_min"
+		            android:layout_column="1"
+		            android:text="1017"
+		            android:textColor="#0080ff"
+		            android:gravity="center"
+		            android:padding="3dip" />
+   		        <TextView
+   		        	android:id="@+id/prec_min"
+		            android:layout_column="1"
+		            android:text="--"
+		            android:textColor="#0080ff"
+		            android:gravity="center"
+		            android:padding="3dip" />
+		    </TableRow>
+		    
+   	        <View
+       		android:layout_height="2dip"
+       		android:background="#FF909090" 
+       		android:paddingTop="3dip"/>
+		    
+		</TableLayout>
+	
+	
+
+      	
+      	<WebView android:id="@+id/webview" 
+      	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"/>
+	
+	</LinearLayout>  
+
+</ScrollView>  
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Selección Estación">
+		<ListPreference
+            android:title="@string/aj_pais"
+            android:summary="@string/aj_pais_des"
+            android:key="listPais"
+            android:defaultValue="1"
+            android:entries="@array/pais"
+            android:entryValues="@array/codPais"
+            android:dialogTitle="@string/aj_pais_titulo_dialog" />
+            
+   		<ListPreference
+            android:title="@string/aj_provincia"
+            android:summary="@string/aj_provincia_des"
+            android:key="listProvincia"
+            android:defaultValue="1"
+            android:entries="@array/provinciasEspaña"
+            android:entryValues="@array/codRegionesEspaña"
+            android:dialogTitle="@string/aj_provincia_titulo_dialog" />
+            
+   		<ListPreference
+            android:title="@string/aj_estacion"
+            android:summary="@string/aj_estacion_des"
+            android:key="listEstacion"
+            android:defaultValue="1"
+            android:entries="@array/sinEntrada"
+            android:entryValues="@array/codSinEntradas"
+            android:dialogTitle="@string/aj_estacion_titulo_dialog" />
+         
+   		<ListPreference
+            android:title="@string/aj_periodo"
+            android:summary="@string/aj_periodo_des"
+            android:key="listPeriodo"
+            android:defaultValue="1"
+            android:entries="@array/periodo"
+            android:entryValues="@array/codPeriodo"
+            android:dialogTitle="@string/aj_periodo_titulo_dialog" />
+
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Interface">
+		<ListPreference
+            android:title="@string/aj_tema"
+            android:summary="@string/aj_tema_des"
+            android:key="listTema"
+            android:defaultValue="1"
+            android:entries="@array/temas"
+            android:entryValues="@array/codTemas"
+            android:dialogTitle="@string/aj_tema_titulo_dialog" />
+   		<ListPreference
+            android:title="@string/aj_transparencia"
+            android:summary="@string/aj_transparencia_des"
+            android:key="listTransparencia"
+            android:defaultValue="1"
+            android:entries="@array/transparencias"
+            android:entryValues="@array/codTransparencias"
+            android:dialogTitle="@string/aj_transparencia_titulo_dialog" />
+	</PreferenceCategory>	
+
+	<PreferenceCategory android:title="Alarmas (en pruebas)"
+	    android:enabled="true">
+	<PreferenceScreen 
+	android:key="alarmasPreferencias"
+    android:title="@string/aj_alarmas_preferencias"
+    android:summary="@string/aj_alarmas_preferencias_des">
+	
+	        <CheckBoxPreference
+            android:key="chbox_alarmaTempAlta"
+            android:title="@string/aj_alarmTempAlta"
+            android:summary="@string/aj_alarmTempAlta_des" 
+            android:defaultValue="false"/>
+            
+            <EditTextPreference
+			android:name="@string/aj_valorAlarmaTempAlta"
+			android:summary="@string/aj_valorAlarmaTempAlta_des"
+			android:defaultValue="0"
+			android:inputType="phone"
+			android:title="@string/aj_valorAlarmaTempAlta"
+			android:key="txt_valorAlarmaTempAlta"
+			android:dependency="chbox_alarmaTempAlta"/>
+			
+			<CheckBoxPreference
+            android:key="chbox_alarmaTempBaja"
+            android:title="@string/aj_alarmTempBaja"
+            android:summary="@string/aj_alarmTempBaja_des" 
+            android:defaultValue="false"/>
+            
+            <EditTextPreference
+			android:name="@string/aj_valorAlarmaTempBaja"
+			android:summary="@string/aj_valorAlarmaTempBaja_des"
+			android:defaultValue="0"
+			android:inputType="phone"
+			android:title="@string/aj_valorAlarmaTempBaja"
+			android:key="txt_valorAlarmaTempBaja"
+			android:dependency="chbox_alarmaTempBaja"/>
+			
+			<CheckBoxPreference
+            android:key="chbox_alarmaLluvia"
+            android:title="@string/aj_alarmaLluvia"
+            android:summary="@string/aj_alarmaLluvia_des" 
+            android:defaultValue="false"/>
+            
+            <EditTextPreference
+			android:name="@string/aj_valorAlarmaLluvia"
+			android:summary="@string/aj_valorAlarmaLluvia_des"
+			android:defaultValue="0"
+			android:inputType="phone"
+			android:title="@string/aj_valorAlarmaLluvia"
+			android:key="txt_valorAlarmaLluvia"
+			android:dependency="chbox_alarmaLluvia"/>
+			
+			<CheckBoxPreference
+            android:key="chbox_alarmaViento"
+            android:title="@string/aj_alarmaViento"
+            android:summary="@string/aj_alarmaViento_des" 
+            android:defaultValue="false"/>
+            
+            <EditTextPreference
+			android:name="@string/aj_valorAlarmaViento"
+			android:summary="@string/aj_valorAlarmaViento_des"
+			android:defaultValue="0"
+			android:inputType="phone"
+			android:title="@string/aj_valorAlarmaViento"
+			android:key="txt_valorAlarmaViento"
+			android:dependency="chbox_alarmaViento"/>
+	</PreferenceScreen>
+	
+    <RingtonePreference
+    android:name="Seleccione Alarma"
+    android:summary="Seleccione un tono de alarma"
+    android:showSilent="true"
+    android:ringtoneType="notification"
+    android:title="Tonos"
+    android:key="ringtonePref" />
+    
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+android:id="@+id/widget" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:orientation="vertical"
+android:padding="2dp" >
+
+	<LinearLayout 
+	android:id="@+id/principal" 
+	android:layout_width="fill_parent"
+	android:layout_height="0dp" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="horizontal"
+	android:layout_weight="3">
+	
+    	<LinearLayout 
+		android:id="@+id/izquierda" 
+		android:layout_width="0dp"
+		android:layout_height="fill_parent" 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:orientation="vertical"
+		android:background="@drawable/fondoconf"
+		android:layout_weight="1">
+		
+	    	<TextView  
+	        android:id="@+id/tw_cab_datos"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:textSize="10sp"
+	        android:ellipsize="marquee"
+	        android:textColor="#ffffff"
+	        android:baselineAlignBottom="true"
+	        android:textStyle="normal"
+	        android:text="meteoclimatic"
+	        android:gravity="center"/>
+		
+   	    	<TextView  
+	        android:id="@+id/tw_medida_principal"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:textSize="25sp"
+	        android:textColor="#000000"
+	        android:baselineAlignBottom="true"
+	        android:textStyle="normal"
+	        android:text="meteoclimatic"
+	        android:gravity="center"/>
+   	    	
+	    	<!-- TextView  
+	        android:id="@+id/tw_cab_principal"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:textSize="10sp"
+	        android:textColor="#ffffff"
+	        android:baselineAlignBottom="true"
+	        android:textStyle="normal"
+	        android:text="*"
+	        android:gravity="center"/-->
+	    	
+          	<!-- ImageView android:id="@+id/imagenActual"
+			android:layout_width="wrap_content"
+         	android:layout_height="14dp"
+          	android:src="@android:drawable/ic_popup_sync"
+          	android:scaleType="centerInside"
+          	android:visibility="invisible"/ -->
+	    
+		</LinearLayout>
+		
+    	<LinearLayout 
+		android:id="@+id/centro" 
+		android:layout_width="0dp"
+		android:layout_height="fill_parent" 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:orientation="vertical"
+		android:background="@drawable/fondoconf"
+		android:layout_weight="1">
+          	
+   	    	<ImageView android:id="@+id/image"
+   			android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:src="@drawable/icon"
+            android:scaleType="centerInside"
+            android:gravity="center"
+            android:layout_marginBottom="5sp"/>
+   	    	
+   	    	<TextView  
+	        android:id="@+id/tw_estado"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:textSize="10sp"
+	        android:textColor="#ffffff"
+	        android:baselineAlignBottom="true"
+	        android:textStyle="normal"
+	        android:text="Estado"
+	        android:gravity="center"/>
+	    
+		</LinearLayout>
+		
+    	<LinearLayout 
+		android:id="@+id/derecha" 
+		android:layout_width="0dp"
+		android:layout_height="fill_parent" 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:orientation="vertical"
+		android:background="@drawable/fondoconf"
+		android:layout_weight="1">
+   	    	
+    	    <ImageView android:id="@+id/image"
+			android:layout_width="fill_parent"
+         	android:layout_height="15dp"
+          	android:src="@drawable/logo_largo"
+          	android:gravity="center"/>
+   	    	
+	    	<TextView  
+	        android:id="@+id/tw_linea3_datos_izq"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:textSize="16sp"
+	        android:textColor="#ffffff"
+	        android:baselineAlignBottom="true"
+	        android:textStyle="normal"
+	        android:text="meteoclimatic"
+	        android:gravity="center"/>
+		        
+   	    	<TextView  
+	        android:id="@+id/tw_linea3_datos_der"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:textSize="14sp"
+	        android:textColor="#ffffff"
+	        android:baselineAlignBottom="true"
+	        android:textStyle="normal"
+	        android:text="meteoclimatic"
+	        android:gravity="center"/>
+	    
+		</LinearLayout>
+		
+    	
+		
+	</LinearLayout>
+	
+	<LinearLayout 
+	android:id="@+id/datos" 
+	android:layout_width="fill_parent"
+	android:layout_height="0dp" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical"
+	android:layout_weight="1.5">
+	
+    	<TextView  
+        android:id="@+id/tw_linea1_datos"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#ffffff"
+        android:baselineAlignBottom="true"
+        android:textStyle="normal"
+        android:text="@string/app_name"
+        android:gravity="center"/>
+    	
+    	<TextView  
+        android:id="@+id/tw_linea2_datos"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#ffffff"
+        android:baselineAlignBottom="true"
+        android:textStyle="normal"
+        android:text="@string/app_name"
+        android:gravity="center"/>
+			
+	</LinearLayout>
+	
+</LinearLayout>
